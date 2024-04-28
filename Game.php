@@ -18,7 +18,7 @@ class Game
      * Vitesse du jeu
      * (temporisation entre 2 générations)
      */
-    protected int $delay = 150000;
+    protected int $delay = 75000;
 
     public function __construct(int $width = 64, int $height = 64)
     {
